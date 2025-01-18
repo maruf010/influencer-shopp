@@ -235,4 +235,26 @@ footer h2{
         grid-template-columns: repeat(1,1fr);
     }
 
+    .features{
+        margin: 20px;
+        flex-direction: column;
+    }
+    .features img{
+        width: 80%;
+    }
+    .features h2{
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+    footer{
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+    footer h2{
+        padding: none;
+    }
+
+
 }
